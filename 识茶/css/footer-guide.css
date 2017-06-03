@@ -1,0 +1,112 @@
+body{
+	margin:0;
+	padding: 0; 
+	font-family: "华文中宋";
+}
+/*导航部分（最上部分）*/
+#guide{
+	position: relative;
+	width: 857px;
+	height: 180px;
+/*	background: red;*/
+	margin: 0 auto;
+}
+#logo{
+	position: absolute;
+	width: 164px;
+	height: 180px;
+	/*margin-top:25px; */
+	line-height: 180px;
+}
+#guideMain{
+	position: absolute;
+	right: 0;
+	width: 496px;
+	height: 180px;
+/*	background: red;*/
+}
+#indexLink{
+	width: 12px;
+	height: 75px;
+	background:white;
+}
+#lineIndex{
+	width: 1px;
+	height: 180px;
+	background: #7B7B7B;
+	position: absolute;
+	z-index: -10;
+	left: 55px;
+	top: 0;
+}
+.guideBigMain{
+/*	height: 113px;*/
+/*	background: black;*/
+	/*margin-right: 24px; */
+	margin-left: 50px; 
+	margin-top: 25px;
+	float: left;
+	/*line-height: 113px;*/
+/*	position: absolute;*/
+	font-size: 14px;
+/*	font-family: "宋体";*/
+	width: 12px;
+	height: 145px;
+}
+.guideBigMain a{
+	color: #7B7B7B;
+	text-decoration: none;
+}
+.guideBigMain a span{
+	margin-top: 2px; 
+	display: block;
+	font-size:10px;
+    font-family: Calibri;
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+}
+/*茶道页面茶道字体颜色变红*/
+/*#chadaoLink a{
+	color: #EF1414;
+}*/
+.guideBigMain:hover a{
+	color: #EF1414;
+}
+
+#footer{
+	width: 100%;
+	background: #616161;
+	height: 134px;
+}
+#footerMain{
+	width: 598px;
+	height: 87px;
+	padding-top:26px; 
+	margin: 0px auto;
+}
+#footerMain #littleBlock p{
+	margin: 0;
+	padding: 0;
+/*	font-family: "宋体";*/
+	font-size: 10px;
+	color: #C8C7C7;
+}
+#footerMain #littleBlock{
+	float: left;
+	margin-right: 40px; 
+}
+#footerMain #find{
+	width: 200px;
+	height: 55px;
+	float: right;
+	border-left: 1px solid #D7D6D6; 
+}
+#findMain input{
+	width: 157px;
+	margin-top: 15px;
+	margin-left: 20px;  
+	background: url("../images/find.png") right;
+	border: 1px solid #D7D6D6;
+}

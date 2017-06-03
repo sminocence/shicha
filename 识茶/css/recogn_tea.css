@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0
+}
+#recogn_tea{
+    width: 100%;
+    height: auto;
+}
+/*头部*/
+/*#recogn_tea #head{
+    width: 865px;
+    height: 104px;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+#recogn_tea #head img{
+    float: left;
+    cursor: pointer;
+}
+#recogn_tea #head ul{
+    list-style: none;
+    float: right;
+}
+#recogn_tea #head li{
+    width: 14px;
+    height: 104px;
+    float: left;
+    margin: 0 21px 0 21px;
+    font-size: 12px;
+    color: #9B9B9B;
+    cursor: pointer;
+}
+#recogn_tea #head li:hover{
+    color: #F7A5A4;
+}
+#recogn_tea #head p{
+    width: 14px;
+    margin-top: 5px;
+    writing-mode: tb-rl;
+    font-size: 8px;
+}*/
+/*下面的部分*/
+#tea_bottom{
+    width: 100%;
+    height: auto;
+}
+/*轮播图*/
+#carousel{
+    width: 865px;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#list{
+    width: 4500px;
+    height: 332px;
+    position: absolute;
+    z-index: 1;
+}
+#list img{
+    float: left;
+}
+#buttons{
+    position: absolute;
+    height: 10px;
+    width: 100px;
+    z-index: 2;
+    bottom: 0px;
+    left: 400px;
+}
+#buttons span{
+    cursor: pointer;
+    float: left;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #B0B0B0;
+    margin-right: 5px;
+}
+#buttons .on{
+    background: #000000;
+}
+.arrow{
+    cursor: pointer;
+    display: block;
+    line-height: 39px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    color: #ffffff;
+}
+ .arrow:hover {
+  background-color: RGBA(0,0,0,.7);
+}
+#prev{
+    left: 20px;
+}
+#next{
+    right: 20px;
+}
+/*竖排文字*/
+#text{
+    width: 717px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+#text ul{
+    list-style: none;
+}
+#text li{
+    width: 15px;
+    height: 275px;
+    float: right;
+    margin-left: 22px;
+    font-size: 12px;
+    writing-mode: tb-rl;
+    letter-spacing: 2px;
+}
+#text li img{
+    margin-top: 180px;
+}
+/*介绍各种茶叶的图片*/
+#tea_grass{
+    width: 807px;
+    height: 372px;
+    margin: 0 auto;
+}
+#tea_grass #tea_line{
+    width: 304px;
+    border-top: 1px solid #B0A36C;
+    float: left;
+    margin-top: 17px;
+}
+#tea_grass p{
+    width: 187px;
+    height: 28px;
+    float: left;
+    font-size: 24px;
+    color: #B0A36C;
+    text-align: center;
+    letter-spacing: 3px;
+}
+#tea_images{
+    width: 644px;
+    height: 282px;
+    float: left;
+    margin: 62px 0 0 82px;
+}
+#tea_images #disp_img{
+    width: 90px;
+    height: 96px;
+    list-style: none;
+    float: left;
+    margin-left: 1px;
+}
+#tea_images #none_img1,#none_img2,#none_img3,#none_img4{
+    width: 90px;
+    height: 96px;
+    list-style: none;
+    float: left;
+    margin-left: 1px;
+    display: none;
+}
+#tea_images #search_li{
+    width: 90px;
+    height: 96px;
+    list-style: none;
+    float: left;
+    margin-left: 1px;
+}
+/*具体两种茶的介绍*/
+#tea_intro{
+    width: 633px;
+    height: 586px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+#tea_intro ul{
+    list-style: none;
+}
+#tea_intro #intro_img{
+    width: 277px;
+    height: 270px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#tea_intro #all_content{
+    width: 277px;
+    height: 270px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#tea_intro #title{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin-top: 36px;
+}
+#tea_intro #content{
+    font-size: 11px;
+    height: auto;
+    margin-top: 10px;
+}
+#tea_intro #reason{
+    color: #DD9B97;
+    font-size: 11px;
+    margin-top: 10px;
+}
+/*一片云*/
+#cloud_img{
+    margin: 0 auto;
+    display: block;
+}
+/*最新的茶品图片*/
+#hottea_img{
+    width: 640px;
+    height: 243px;
+    margin: 0 auto;
+}
+#hottea_img ul{
+    list-style: none;
+}
+#hottea_img li{
+    width: 148px;
+    height: 242px;
+    background-color: #EFEFF1;
+    float: left;
+    margin-right: 10px;
+}
+#hottea_img li p{
+    width: 30px;
+    height: 42px;
+    background: #C5382A;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+#hottea_img li #greentea{
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+#hottea_img li img{
+    margin-top: 10px;
+}
+#hottea_img li #tea_name{
+    margin-top: 42px;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+#all_num{
+    width: 640px;
+    height: 15px;
+    margin: 0 auto;
+}
+#num{
+    width: 148px;
+    height: 15px;
+    font-size: 12px;
+    color: #8C8F92;
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+#num span{
+    margin-left: 18px;
+}
+#maojian{
+    width: 828px;
+    height: 394px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+#maojian #tea_line{
+    width: 304px;
+    border-top: 1px solid #B0A36C;
+    float: left;
+    margin-top: 17px;
+}
+#maojian p{
+    width: 210px;
+    height: 28px;
+    float: left;
+    font-size: 24px;
+    color: #B0A36C;
+    text-align: center;
+    letter-spacing: 3px;
+}
+#maojian_img{
+    width: 633px;
+    height: 332px;
+    float: left;
+    margin-top: 37px;
+    margin-left: 98px;
+}
+#maojian_img li{
+    width: 306px;
+    height: 332px;
+    list-style: none;
+    float: left;
+    margin-right: 8px;
+}
+#maojian_img #img_title{
+    float: right;
+    color: #B3B5B7;
+    font-size: 14px;
+}
+#footer{
+    width: 100%;
+    height: 173px;
+    background: #616161;
+    margin-top: 40px; 
+}
+#footer #footer_cen{
+    width: 612px;
+    height: 120px;
+    margin: 0 auto;
+}
+#house{
+    width: 215px;
+    height: 128px;
+    list-style: none;
+    float: left;
+    margin-top: 40px;     
+}
+#house li{
+    width: 65px;
+    height: 85px;
+    float: left;
+    margin-right: 40px;
+    font-size: 10px;
+    color: #CFCECE;
+}
+#chat{
+    width: 70px;
+    height: 100px;
+    list-style: none;
+    float: left;
+    margin-top: 30px;
+}
+#chat li{
+    width: 70px;
+    height: 31px;
+    float: left;
+    margin-top: 10px; 
+    font-size: 10px;
+    color: #CFCECE;
+}
+#chat img{
+    float: left;
+}
+#chat p{
+    float: left;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+/*#footer #line{
+    width: 1px;
+    height: 50px;
+    float: left;
+    margin-left: 137px;
+    margin-top: 54px;
+    background-color: #D5D4D4;
+}
+#footer #search_bar{
+   width: 150px;
+   height: 20px;
+}
+#footer #input{
+    width: 118px;
+    height: 18px;
+    border: 1px solid #D5D4D4;
+    background: #616161;
+    float: left;
+    margin-left: 20px;
+    margin-top: 75px;
+}
+#footer #img{
+    float: left;
+    margin-top: 75px;
+}*/
+#first_index{
+    width: 100%;
+    height: auto;
+    display: none;
+}
